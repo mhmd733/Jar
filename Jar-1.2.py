@@ -11,7 +11,7 @@ speech_client = sr.Recognizer()
 tts_client = texttospeech.TextToSpeechClient()
 
 # OpenAI setup
-OPENAI_KEY = "sk-proj-vQ8zP4WRvmDp8uqdpehwT3BlbkFJuLJsssmosaRxsRrcTHH4"
+OPENAI_KEY = ""
 openai.api_key = OPENAI_KEY
 
 def speak_text(text):
